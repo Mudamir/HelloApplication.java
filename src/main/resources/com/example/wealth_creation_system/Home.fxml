@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wealth_creation_system.Home">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Users/rashi/Downloads/USER%20UTILIZATION%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_Grades" layoutX="157.0" layoutY="180.0" mnemonicParsing="false" onAction="#moveToGradesPage" opacity="0.0" prefHeight="66.0" prefWidth="294.0" text="btn_Grades">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn_deadlines" layoutX="603.0" layoutY="180.0" mnemonicParsing="false" onAction="#moveToDeadlinePage" opacity="0.0" prefHeight="66.0" prefWidth="294.0" text="btn_Grades">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
